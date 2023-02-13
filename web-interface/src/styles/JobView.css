@@ -1,0 +1,46 @@
+.JobView {
+    margin: 100px;
+}
+
+.fadeTopScreen {
+    position: fixed;
+    margin-top: -5vh;
+}
+
+@media only screen and (max-width: 900px) {
+    .JobView {
+        margin: 10px;
+    }
+
+    .fadeTopScreen {
+        position: fixed;
+        margin: 30px;
+        z-index: 10000;
+        margin-top: -2vh;
+    }
+}
+
+.JobTypeTitle {
+    font-weight: normal;
+}
+
+.TimelineProcessing {
+    background-color: #71279d;
+}
+
+.TimelineTranscoding {
+    background-color: #376d9c;
+}
+
+.TimelinePostprocessing {
+    background-color: #379c6e;
+}
+
+
+#JobViewCompletedAccordion {
+    margin-top: 2vh;
+}
+
+.material-icons {
+    vertical-align: middle;
+}

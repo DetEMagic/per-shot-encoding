@@ -1,0 +1,9 @@
+
+db:
+  host: joelsiks.com
+  user: user
+  password: krosus
+  database: db
+
+videolib:
+  encoreUrl: https://videocore-encore.dev.aurora.svt.se
